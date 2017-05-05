@@ -3,6 +3,7 @@ include '../cabecera.php';
 
 // $queryCarreras = $conn->query('SELECT id, NOMBRE FROM carreras');
 $queryProfesor = $conn->query('SELECT id, nombres, apellido FROM profesores');
+echo "Hola";
 ?>
 <body>
 	<br><br>
