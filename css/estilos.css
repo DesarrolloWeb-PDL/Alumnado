@@ -1,0 +1,39 @@
+/* HEADER */
+.navbar {
+	margin-bottom: 0;
+}
+.jumbotron {
+	background: #428bca;
+	color: #fff;
+	padding: 20px 0;
+}
+
+/* POST */
+.main {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.post {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #999;
+}
+.post .post-title a {
+	color: #333;
+}
+.post .thumbnail {
+	margin-right: 10px;
+	width: 40%;
+}
+.post .contenedor-botones {
+	width: 100%;
+}
+
+/* MEDIA QUERIE */
+@media screen and (max-width: 768px) {
+	.post .thumbnail {
+		width: 100%;
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
+}
