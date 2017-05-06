@@ -4,6 +4,8 @@ include '../cabecera.php';
 $queryCarreras = $conn->query('SELECT id, NOMBRE FROM carreras');
 $queryProfesor = $conn->query('SELECT id, nombres, apellido FROM profesores');
 
+echo "Prubas con git y github !!!!!!!!!!";
+
 ?>
 
 	<form action="#" method="post" align="center">
