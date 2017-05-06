@@ -8,6 +8,19 @@ echo "Prubas con git y github !!!!!!!!!!";
 
 ?>
 
+	<style>
+		.marquee {
+			padding: 50px;
+			background: blue;
+			color: white;
+			font-size: 20px;
+		}
+	</style>
+
+	<div class="marquee">
+		HOLA!!!!!!!!
+	</div>
+
 	<form action="#" method="post" align="center">
 		<label for="materia">Materia</label>
 		<input type="text" name="materia" id="materia"><br><br>
