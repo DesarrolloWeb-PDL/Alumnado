@@ -3,7 +3,8 @@ $(function() {
 		event.preventDefault();
 		var $carrera = $(this).val();
 		if ($carrera == "") {
-			alert('Seleccione la carrera!');
+			$('#materia').html(respuesta.html);
+			$('#materia').selectpicker('refresh');
 		} else {
 			$.ajax({
 				url: '../Controllers/datosMateria.php',
@@ -18,7 +19,6 @@ $(function() {
 			})
 			.fail(function(xhr, err) {
 				console.log("error");
-				console.log("readyState: "+xhr.readyState+"///responseText: "+xhr.responseText);
 			})
 			.always(function() {
 				console.log("complete");
