@@ -2,7 +2,8 @@ $(function() {
 	$('#carrera').on('change', function() {
 		event.preventDefault();
 		var $carrera = $(this).val();
-		if ($carrera == "") {
+		alert($carrera);
+		/*if ($carrera == "") {
 			$('#materia').html(respuesta.html);
 			$('#materia').selectpicker('refresh');
 		} else {
@@ -23,7 +24,6 @@ $(function() {
 			.always(function() {
 				console.log("complete");
 			});
-			
-		}
+		}*/	
 	});
 });
