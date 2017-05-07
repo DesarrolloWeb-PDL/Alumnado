@@ -1,0 +1,18 @@
+20:33:56   SELECT id, nombres, apellido FROM profesores
+20:33:56   
+20:33:56   sin registro
+20:33:56   SELECT id, NOMBRE FROM carreras
+20:33:56   
+20:33:56   sin registro
+21:14:35   SELECT id, nombres, apellido FROM profesores
+21:14:35   
+21:14:35   sin registro
+21:14:35   SELECT id, NOMBRE FROM carreras
+21:14:35   
+21:14:35   sin registro
+21:17:29   SELECT id, nombres, apellido FROM profesores
+21:17:29   
+21:17:29   sin registro
+21:17:29   SELECT id, NOMBRE FROM carreras
+21:17:29   
+21:17:29   sin registro

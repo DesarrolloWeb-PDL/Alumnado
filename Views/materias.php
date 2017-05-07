@@ -48,5 +48,5 @@ echo "Hola";
 
 	</div>
 	<!-- <script src="../js/jquery.js"></script> -->
-</body>
+	</body>
 </html>
