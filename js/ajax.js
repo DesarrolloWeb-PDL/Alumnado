@@ -1,20 +1,21 @@
 $(function() {
+
 	$('#carrera').on('change', function() {
 		event.preventDefault();
 		var $carrera = $(this).val();
-		alert($carrera);
-		/*if ($carrera == "") {
+		
+		if ($carrera == "") {
 			$('#materia').html(respuesta.html);
 			$('#materia').selectpicker('refresh');
 		} else {
 			$.ajax({
-				url: '../Controllers/datosMateria.php',
+				url: '../Controllers/materias.php',
 				type: 'POST',
 				dataType: 'json',
 				data: {'carrera': $carrera},
 			})
 			.done(function(respuesta) {
-				$('#materia').html(respuesta.html);
+				$('#materia').html(""+respuesta);
 				$('#materia').selectpicker('refresh');
 				console.log("success");
 			})
@@ -24,6 +25,6 @@ $(function() {
 			.always(function() {
 				console.log("complete");
 			});
-		}*/	
+		}
 	});
 });

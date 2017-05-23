@@ -1,0 +1,6 @@
+03:11:17   SELECT id, nombres, apellido FROM profesores
+03:11:17   
+03:11:17   sin registro
+03:11:18   SELECT id, NOMBRE FROM carreras
+03:11:18   
+03:11:18   sin registro

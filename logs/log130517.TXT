@@ -1,0 +1,356 @@
+19:32:00   SELECT id, nombres, apellido FROM profesores
+19:32:00   
+19:32:00   sin registro
+19:32:00   SELECT id, NOMBRE FROM carreras
+19:32:01   
+19:32:01   sin registro
+19:32:01   SELECT id, NOMBRE FROM materia WHERE idCARRERA = 
+19:32:09   SELECT id, NOMBRE FROM materia WHERE idCARRERA = 3
+19:32:09   
+19:32:09   sin registro
+19:32:15   SELECT id, NOMBRE FROM materia WHERE idCARRERA = 4
+19:32:15   
+19:32:15   sin registro
+19:37:38   SELECT id, nombres, apellido FROM profesores
+19:37:38   
+19:37:38   sin registro
+19:37:39   SELECT id, NOMBRE FROM carreras
+19:37:39   
+19:37:39   sin registro
+19:37:39   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id WHERE 1 = 1
+19:37:39   
+19:37:39   sin registro
+19:38:20   SELECT id, nombres, apellido FROM profesores
+19:38:20   
+19:38:20   sin registro
+19:38:20   SELECT id, NOMBRE FROM carreras
+19:38:20   
+19:38:20   sin registro
+19:38:20   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id WHERE 1 = 1
+19:38:20   
+19:38:20   sin registro
+19:39:53   SELECT id, nombres, apellido FROM profesores
+19:39:53   
+19:39:53   sin registro
+19:39:53   SELECT id, NOMBRE FROM carreras
+19:39:53   
+19:39:53   sin registro
+19:39:53   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id WHERE 1 = 1
+19:39:53   
+19:39:53   sin registro
+19:40:59   SELECT id, nombres, apellido FROM profesores
+19:40:59   
+19:40:59   sin registro
+19:40:59   SELECT id, NOMBRE FROM carreras
+19:40:59   
+19:40:59   sin registro
+19:40:59   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id WHERE 1 = 1
+19:40:59   
+19:40:59   sin registro
+19:41:35   SELECT id, nombres, apellido FROM profesores
+19:41:35   
+19:41:35   sin registro
+19:41:35   SELECT id, NOMBRE FROM carreras
+19:41:35   
+19:41:35   sin registro
+19:41:35   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id WHERE 1 = 1
+19:41:35   
+19:41:35   sin registro
+19:41:46   SELECT id, nombres, apellido FROM profesores
+19:41:46   
+19:41:46   sin registro
+19:41:46   SELECT id, NOMBRE FROM carreras
+19:41:46   
+19:41:46   sin registro
+19:41:46   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id WHERE 1 = 1
+19:41:46   
+19:41:46   sin registro
+19:43:57   SELECT id, nombres, apellido FROM profesores
+19:43:57   
+19:43:57   sin registro
+19:43:57   SELECT id, NOMBRE FROM carreras
+19:43:57   
+19:43:57   sin registro
+19:44:11   SELECT id, nombres, apellido FROM profesores
+19:44:11   
+19:44:11   sin registro
+19:44:11   SELECT id, NOMBRE FROM carreras
+19:44:11   
+19:44:11   sin registro
+19:44:23   SELECT id, nombres, apellido FROM profesores
+19:44:23   
+19:44:23   sin registro
+19:44:23   SELECT id, NOMBRE FROM carreras
+19:44:23   
+19:44:23   sin registro
+19:44:23   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id WHERE 1 = 1
+19:44:23   
+19:44:23   sin registro
+19:47:14   SELECT id, nombres, apellido FROM profesores
+19:47:14   
+19:47:14   sin registro
+19:47:14   SELECT id, NOMBRE FROM carreras
+19:47:14   
+19:47:14   sin registro
+19:47:15   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id WHERE 1 = 1
+19:47:15   
+19:47:15   sin registro
+19:48:04   SELECT id, nombres, apellido FROM profesores
+19:48:04   
+19:48:04   sin registro
+19:48:04   SELECT id, NOMBRE FROM carreras
+19:48:04   
+19:48:04   sin registro
+19:48:04   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id WHERE 1 = 1
+19:48:04   
+19:48:04   sin registro
+19:48:49   SELECT id, nombres, apellido FROM profesores
+19:48:49   
+19:48:49   sin registro
+19:48:49   SELECT id, NOMBRE FROM carreras
+19:48:49   
+19:48:49   sin registro
+19:48:49   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id WHERE 1 = 1
+19:48:49   
+19:48:49   sin registro
+19:51:13   SELECT id, nombres, apellido FROM profesores
+19:51:13   
+19:51:13   sin registro
+19:51:13   SELECT id, NOMBRE FROM carreras
+19:51:13   
+19:51:13   sin registro
+19:51:13   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id WHERE 1 = 1
+19:51:13   
+19:51:13   sin registro
+19:51:30   SELECT id, nombres, apellido FROM profesores
+19:51:30   
+19:51:30   sin registro
+19:51:30   SELECT id, NOMBRE FROM carreras
+19:51:30   
+19:51:30   sin registro
+19:51:30   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id WHERE 1 = 1
+19:51:30   
+19:51:30   sin registro
+19:51:58   SELECT id, nombres, apellido FROM profesores
+19:51:58   
+19:51:58   sin registro
+19:51:58   SELECT id, NOMBRE FROM carreras
+19:51:58   
+19:51:58   sin registro
+19:51:58   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id WHERE 1 = 1
+19:51:58   
+19:51:58   sin registro
+19:52:51   SELECT id, nombres, apellido FROM profesores
+19:52:51   
+19:52:51   sin registro
+19:52:51   SELECT id, NOMBRE FROM carreras
+19:52:51   
+19:52:51   sin registro
+19:52:51   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id WHERE 1 = 1
+19:52:51   
+19:52:51   sin registro
+19:53:10   SELECT id, nombres, apellido FROM profesores
+19:53:10   
+19:53:10   sin registro
+19:53:10   SELECT id, NOMBRE FROM carreras
+19:53:10   
+19:53:10   sin registro
+19:53:10   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id WHERE 1 = 1
+19:53:10   
+19:53:10   sin registro
+19:54:15   SELECT id, nombres, apellido FROM profesores
+19:54:15   
+19:54:15   sin registro
+19:54:15   SELECT id, NOMBRE FROM carreras
+19:54:15   
+19:54:15   sin registro
+19:54:15   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id WHERE 1 = 1
+19:54:15   
+19:54:15   sin registro
+19:54:21   SELECT id, nombres, apellido FROM profesores
+19:54:21   
+19:54:21   sin registro
+19:54:21   SELECT id, NOMBRE FROM carreras
+19:54:22   
+19:54:22   sin registro
+19:54:22   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id WHERE 1 = 1
+19:54:22   
+19:54:22   sin registro
+19:55:51   SELECT id, nombres, apellido FROM profesores
+19:55:51   
+19:55:51   sin registro
+19:55:51   SELECT id, NOMBRE FROM carreras
+19:55:51   
+19:55:51   sin registro
+19:55:51   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id WHERE 1 = 1
+19:55:51   
+19:55:51   sin registro
+19:56:25   SELECT id, nombres, apellido FROM profesores
+19:56:25   
+19:56:25   sin registro
+19:56:26   SELECT id, NOMBRE FROM carreras
+19:56:26   
+19:56:26   sin registro
+19:56:26   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id
+19:56:26   
+19:56:26   sin registro
+19:56:42   SELECT id, nombres, apellido FROM profesores
+19:56:42   
+19:56:42   sin registro
+19:56:42   SELECT id, NOMBRE FROM carreras
+19:56:42   
+19:56:42   sin registro
+19:56:42   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id WHERE materia.idCARRERA = 
+19:58:58   SELECT id, nombres, apellido FROM profesores
+19:58:58   
+19:58:58   sin registro
+19:58:58   SELECT id, NOMBRE FROM carreras
+19:58:58   
+19:58:58   sin registro
+19:58:58   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id
+19:58:58   
+19:58:58   sin registro
+20:01:19   SELECT id, nombres, apellido FROM profesores
+20:01:19   
+20:01:19   sin registro
+20:01:19   SELECT id, NOMBRE FROM carreras
+20:01:19   
+20:01:19   sin registro
+20:01:19   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id
+20:01:19   
+20:01:19   sin registro
+20:01:34   SELECT id, nombres, apellido FROM profesores
+20:01:34   
+20:01:34   sin registro
+20:01:34   SELECT id, NOMBRE FROM carreras
+20:01:34   
+20:01:34   sin registro
+20:01:34   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id
+20:01:34   
+20:01:34   sin registro
+20:02:00   SELECT id, nombres, apellido FROM profesores
+20:02:00   
+20:02:00   sin registro
+20:02:01   SELECT id, NOMBRE FROM carreras
+20:02:01   
+20:02:01   sin registro
+20:02:01   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id
+20:02:01   
+20:02:01   sin registro
+20:02:47   SELECT id, nombres, apellido FROM profesores
+20:02:47   
+20:02:47   sin registro
+20:02:47   SELECT id, NOMBRE FROM carreras
+20:02:47   
+20:02:47   sin registro
+20:02:47   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id
+20:02:47   
+20:02:47   sin registro
+20:03:16   SELECT id, nombres, apellido FROM profesores
+20:03:16   
+20:03:17   sin registro
+20:03:17   SELECT id, NOMBRE FROM carreras
+20:03:17   
+20:03:17   sin registro
+20:03:17   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id
+20:03:17   
+20:03:17   sin registro
+20:03:42   SELECT id, nombres, apellido FROM profesores
+20:03:42   
+20:03:42   sin registro
+20:03:42   SELECT id, NOMBRE FROM carreras
+20:03:42   
+20:03:42   sin registro
+20:03:42   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id
+20:03:42   
+20:03:42   sin registro
+20:03:56   SELECT id, nombres, apellido FROM profesores
+20:03:56   
+20:03:56   sin registro
+20:03:56   SELECT id, NOMBRE FROM carreras
+20:03:56   
+20:03:56   sin registro
+20:03:56   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id
+20:03:56   
+20:03:56   sin registro
+20:04:09   SELECT id, nombres, apellido FROM profesores
+20:04:09   
+20:04:09   sin registro
+20:04:09   SELECT id, NOMBRE FROM carreras
+20:04:10   
+20:04:10   sin registro
+20:04:10   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id
+20:04:10   
+20:04:10   sin registro
+20:05:41   SELECT id, nombres, apellido FROM profesores
+20:05:41   
+20:05:41   sin registro
+20:05:41   SELECT id, NOMBRE FROM carreras
+20:05:41   
+20:05:41   sin registro
+20:05:41   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id
+20:05:42   
+20:05:42   sin registro
+20:07:00   SELECT id, nombres, apellido FROM profesores
+20:07:00   
+20:07:00   sin registro
+20:07:01   SELECT id, NOMBRE FROM carreras
+20:07:01   
+20:07:01   sin registro
+20:07:01   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id
+20:07:01   
+20:07:01   sin registro
+20:08:16   SELECT id, nombres, apellido FROM profesores
+20:08:16   
+20:08:16   sin registro
+20:08:16   SELECT id, NOMBRE FROM carreras
+20:08:16   
+20:08:16   sin registro
+20:08:16   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id
+20:08:16   
+20:08:16   sin registro
+20:18:58   SELECT id, nombres, apellido FROM profesores
+20:18:58   
+20:18:58   sin registro
+20:18:58   SELECT id, NOMBRE FROM carreras
+20:18:58   
+20:18:58   sin registro
+20:18:58   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id
+20:18:58   
+20:18:58   sin registro
+20:22:54   SELECT id, nombres, apellido FROM profesores
+20:22:54   
+20:22:54   sin registro
+20:22:55   SELECT id, NOMBRE FROM carreras
+20:22:55   
+20:22:55   sin registro
+20:22:55   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id
+20:22:55   
+20:22:55   sin registro
+20:23:15   SELECT id, nombres, apellido FROM profesores
+20:23:15   
+20:23:15   sin registro
+20:23:16   SELECT id, NOMBRE FROM carreras
+20:23:16   
+20:23:16   sin registro
+20:23:16   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id
+20:23:16   
+20:23:16   sin registro
+20:23:50   SELECT id, nombres, apellido FROM profesores
+20:23:50   
+20:23:50   sin registro
+20:23:50   SELECT id, NOMBRE FROM carreras
+20:23:50   
+20:23:50   sin registro
+20:23:50   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id
+20:23:50   
+20:23:50   sin registro
+20:24:26   SELECT id, nombres, apellido FROM profesores
+20:24:26   
+20:24:26   sin registro
+20:24:26   SELECT id, NOMBRE FROM carreras
+20:24:26   
+20:24:26   sin registro
+20:24:26   SELECT materia.id, materia.NOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON materia.idCARRERA = carreras.id
+20:24:26   
+20:24:26   sin registro
