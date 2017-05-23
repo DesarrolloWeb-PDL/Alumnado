@@ -19,17 +19,16 @@ $queryProfesor = $conn->query('SELECT id, nombres, apellido FROM profesores');
 								<div class="form-group">
 									<div class="col-sm-offset-1 col-sm-4">
 										<label for="carrera" class="sr-only">Carrera:</label>
-										<select name="carrera" id="carrera" class="selectpicker form-control" data-live-search="true" title="Carrera">
-											<option>Todas</option>
+										<select name="carrera" id="carrera" class="selectpicker form-control" data-live-search="true">
+											<option value="" data-tokens="">Carrera</option>
 											<?php include_once '../Controllers/carreras.php'; ?>								
 										</select>
 									</div>
 
 									<div class="col-sm-4">
 										<label for="materia" class="sr-only">Materia:</label>
-										<select name="materia" id="materia" class="selectpicker form-control" data-live-search="true" title="Materia">
-											<option>Todas</option>
-											<?php include_once '../Controllers/materias.php' ?>
+										<select name="materia" id="materia" class="selectpicker form-control" data-live-search="true">
+											<option value="#" data-tokens="#">Materia</option>
 										</select>
 									</div>
 
