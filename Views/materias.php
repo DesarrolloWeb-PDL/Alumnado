@@ -29,6 +29,7 @@ $queryProfesor = $conn->query('SELECT id, nombres, apellido FROM profesores');
 										<label for="materia" class="sr-only">Materia:</label>
 										<select name="materia" id="materia" class="selectpicker form-control" data-live-search="true">
 											<option value="#" data-tokens="#">Materia</option>
+											<?php include_once '../Controllers/datosMateria.php'; ?>
 										</select>
 									</div>
 
@@ -45,5 +46,4 @@ $queryProfesor = $conn->query('SELECT id, nombres, apellido FROM profesores');
 				
 			</div>
 		</div>
-	</body>
-</html>
+<?php include_once '../pie.php'; ?>

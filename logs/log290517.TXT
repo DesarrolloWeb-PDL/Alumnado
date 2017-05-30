@@ -1,0 +1,207 @@
+01:05:58   SELECT id, nombres, apellido FROM profesores
+01:05:59   
+01:05:59   sin registro
+01:05:59   SELECT id, NOMBRE FROM carreras
+01:05:59   
+01:05:59   sin registro
+01:07:11   SELECT id, nombres, apellido FROM profesores
+01:07:11   
+01:07:11   sin registro
+01:07:11   SELECT id, NOMBRE FROM carreras
+01:07:12   
+01:07:12   sin registro
+01:07:22   SELECT id, nombres, apellido FROM profesores
+01:07:22   
+01:07:22   sin registro
+01:07:22   SELECT id, NOMBRE FROM carreras
+01:07:22   
+01:07:22   sin registro
+01:07:36   SELECT id, nombres, apellido FROM profesores
+01:07:36   
+01:07:36   sin registro
+01:07:36   SELECT id, NOMBRE FROM carreras
+01:07:36   
+01:07:36   sin registro
+01:07:37   SELECT id, nombres, apellido FROM profesores
+01:07:37   SELECT id, nombres, apellido FROM profesores
+01:07:37   
+01:07:37   sin registro
+01:07:37   
+01:07:37   sin registro
+01:07:37   SELECT id, NOMBRE FROM carreras
+01:07:37   
+01:07:37   sin registro
+01:07:37   SELECT id, NOMBRE FROM carreras
+01:07:37   SELECT id, nombres, apellido FROM profesores
+01:07:37   
+01:07:37   
+01:07:37   sin registro
+01:07:37   sin registro
+01:07:37   SELECT id, NOMBRE FROM carreras
+01:07:37   
+01:07:37   sin registro
+01:07:37   SELECT id, nombres, apellido FROM profesores
+01:07:37   
+01:07:37   sin registro
+01:07:37   SELECT id, NOMBRE FROM carreras
+01:07:37   
+01:07:37   sin registro
+01:07:38   SELECT id, nombres, apellido FROM profesores
+01:07:38   
+01:07:38   sin registro
+01:07:38   SELECT id, NOMBRE FROM carreras
+01:07:38   
+01:07:38   sin registro
+01:08:15   SELECT id, nombres, apellido FROM profesores
+01:08:15   
+01:08:15   sin registro
+01:08:15   SELECT id, NOMBRE FROM carreras
+01:08:15   
+01:08:15   sin registro
+01:14:05   SELECT id, nombres, apellido FROM profesores
+01:14:05   
+01:14:05   sin registro
+01:14:05   SELECT id, NOMBRE FROM carreras
+01:14:05   
+01:14:05   sin registro
+01:14:10   SELECT id, nombres, apellido FROM profesores
+01:14:10   
+01:14:10   sin registro
+01:14:10   SELECT id, NOMBRE FROM carreras
+01:14:10   
+01:14:10   sin registro
+01:14:27   SELECT id, nombres, apellido FROM profesores
+01:14:27   
+01:14:27   sin registro
+01:14:27   SELECT id, NOMBRE FROM carreras
+01:14:27   
+01:14:27   sin registro
+01:14:34   SELECT id, nombres, apellido FROM profesores
+01:14:34   
+01:14:35   sin registro
+01:14:35   SELECT id, NOMBRE FROM carreras
+01:14:35   
+01:14:35   sin registro
+01:17:54   SELECT id, nombres, apellido FROM profesores
+01:17:54   
+01:17:54   sin registro
+01:17:54   SELECT id, NOMBRE FROM carreras
+01:17:54   
+01:17:54   sin registro
+01:18:31   SELECT id, nombres, apellido FROM profesores
+01:18:31   
+01:18:31   sin registro
+01:18:31   SELECT id, NOMBRE FROM carreras
+01:18:31   
+01:18:32   sin registro
+01:18:39   SELECT id, nombres, apellido FROM profesores
+01:18:39   
+01:18:39   sin registro
+01:18:39   SELECT id, NOMBRE FROM carreras
+01:18:39   
+01:18:39   sin registro
+01:21:12   SELECT id, nombres, apellido FROM profesores
+01:21:12   
+01:21:12   sin registro
+01:21:12   SELECT id, NOMBRE FROM carreras
+01:21:12   
+01:21:12   sin registro
+01:21:19   SELECT id, NOMBRE FROM materia WHERE idCARRERA = 3
+01:21:19   
+01:21:19   sin registro
+01:21:24   SELECT id, NOMBRE FROM materia WHERE idCARRERA = 4
+01:21:24   
+01:21:24   sin registro
+01:33:25   SELECT id, nombres, apellido FROM profesores
+01:33:25   
+01:33:25   sin registro
+01:33:25   SELECT id, NOMBRE FROM carreras
+01:33:25   
+01:33:25   sin registro
+01:33:41   SELECT id, NOMBRE FROM materia WHERE idCARRERA = 3
+01:33:41   
+01:33:41   sin registro
+01:33:46   SELECT id, NOMBRE FROM materia WHERE idCARRERA = 4
+01:33:46   
+01:33:47   sin registro
+01:33:53   SELECT id, NOMBRE FROM materia WHERE 1 = 1
+01:33:53   
+01:33:53   sin registro
+01:37:22   SELECT id, nombres, apellido FROM profesores
+01:37:22   
+01:37:22   sin registro
+01:37:22   SELECT id, NOMBRE FROM carreras
+01:37:22   
+01:37:22   sin registro
+01:37:25   SELECT id, NOMBRE FROM materia WHERE idCARRERA = 3
+01:37:25   
+01:37:25   sin registro
+01:39:21   SELECT id, nombres, apellido FROM profesores
+01:39:21   
+01:39:22   sin registro
+01:39:22   SELECT id, NOMBRE FROM carreras
+01:39:22   
+01:39:22   sin registro
+01:39:28   SELECT id, NOMBRE FROM materia WHERE idCARRERA = 3
+01:39:28   
+01:39:28   sin registro
+01:39:32   SELECT id, NOMBRE FROM materia WHERE 1 = 1
+01:39:32   
+01:39:32   sin registro
+01:39:32   SELECT id, nombres, apellido FROM profesores
+01:39:32   
+01:39:32   sin registro
+01:39:32   SELECT id, NOMBRE FROM carreras
+01:39:32   
+01:39:32   sin registro
+01:40:05   SELECT id, nombres, apellido FROM profesores
+01:40:05   
+01:40:05   sin registro
+01:40:05   SELECT id, NOMBRE FROM carreras
+01:40:06   
+01:40:06   sin registro
+01:40:06   SELECT id, NOMBRE FROM materia WHERE 1 = 1
+01:40:06   
+01:40:06   sin registro
+01:40:54   SELECT id, nombres, apellido FROM profesores
+01:40:54   
+01:40:54   sin registro
+01:40:54   SELECT id, NOMBRE FROM carreras
+01:40:54   
+01:40:54   sin registro
+01:40:54   SELECT id, NOMBRE FROM materia WHERE 1 = 1
+01:40:54   
+01:40:54   sin registro
+01:41:00   SELECT id, NOMBRE FROM materia WHERE idCARRERA = 3
+01:41:00   
+01:41:00   sin registro
+01:41:05   SELECT id, NOMBRE FROM materia WHERE idCARRERA = 4
+01:41:05   
+01:41:05   sin registro
+01:41:09   SELECT id, NOMBRE FROM materia WHERE 1 = 1
+01:41:09   
+01:41:09   sin registro
+01:41:11   SELECT id, NOMBRE FROM materia WHERE idCARRERA = 3
+01:41:11   
+01:41:11   sin registro
+01:43:27   SELECT id, nombres, apellido FROM profesores
+01:43:27   
+01:43:27   sin registro
+01:43:27   SELECT id, NOMBRE FROM carreras
+01:43:27   
+01:43:27   sin registro
+01:43:27   SELECT id, NOMBRE FROM materia WHERE 1 = 1
+01:43:27   
+01:43:27   sin registro
+01:43:31   SELECT id, NOMBRE FROM materia WHERE idCARRERA = 3
+01:43:31   
+01:43:31   sin registro
+01:43:35   SELECT id, NOMBRE FROM materia WHERE idCARRERA = 4
+01:43:35   
+01:43:35   sin registro
+01:43:38   SELECT id, NOMBRE FROM materia WHERE 1 = 1
+01:43:38   
+01:43:38   sin registro
+01:43:42   SELECT id, NOMBRE FROM materia WHERE idCARRERA = 3
+01:43:43   
+01:43:43   sin registro

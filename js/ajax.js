@@ -2,9 +2,9 @@ $(function() {
 	$('#carrera').on('change', function() {
 		event.preventDefault();
 		var $carrera = $(this).val();
-		alert($carrera);
-		/*if ($carrera == "") {
-			$('#materia').html(respuesta.html);
+		// alert($carrera);
+		if ($carrera == "") {
+			$('#materia').load('../Controllers/datosMateria.php');
 			$('#materia').selectpicker('refresh');
 		} else {
 			$.ajax({
@@ -24,6 +24,6 @@ $(function() {
 			.always(function() {
 				console.log("complete");
 			});
-		}*/	
+		}	
 	});
 });
