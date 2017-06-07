@@ -10,10 +10,17 @@
 	<link rel="stylesheet" href="../css/bootstrap-select.min.css"> 
     <link rel="stylesheet" href="../css/bootstrap-table.min.css"> 
     <link rel="stylesheet" href="../css/formvalidation.min.css">
-
-    <script src="../js/jquery-1.12.3.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/bootstrap-select.min.js"></script>
-    <script src="../js/bootstrap-table.min.js"></script>
-    <script src="../js/ajax.js"></script>
 </head>
+<body>
+    <div class="modal fade" id="modalerror">
+            <div class="modal-dialog">
+                <div class="alert alert-danger">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+                    <b>Error:</b>
+                    <div id="lblerror">...completa llamado...</div>
+                 <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
+                 </div>
+                </div>
+            </div><!-- /.modal-dialog TIENE QUE IR -->
+        </div><!-- /.modal -->

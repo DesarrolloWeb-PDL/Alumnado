@@ -5,5 +5,5 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
 	$url = 'http://';
 }
 $url .= $_SERVER['HTTP_HOST'];
-header('Location: '. $url .'/Alumnado2017/Views/materias.php');
+header('Location: '. $url .'/Alumnado2017/Views/ctrlMateria.php');
 ?>

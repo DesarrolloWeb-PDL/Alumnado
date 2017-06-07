@@ -16,6 +16,10 @@ class dataBase{
 		return $this->dataHost->commit();
 	}
 
+	public function set_charset($sett){
+		return $this->dataHost->set_charset($sett);
+	}
+
 	public function begin_transaction(){
 		return $this->dataHost->begin_transaction();
 	}
@@ -52,9 +56,17 @@ class dataBase{
 		// Ejecuta la conuslta y retorna un String tipo json.
 		$exeConsulta = $this->ejecutar($sqlSelect);
 
+		// Dame resultados de la consulta preparada
+		$results = $exeConsulta->get_result();
+
 		if ($this->sqlMsg == '') {
-			$row = $exeConsulta->fetchAll();
-			return $this->safe_json_encode($row);
+			// Cargamos en un arreglo los resultados de la consulta.
+			$respuesta = array();
+			while ($row = $results->fetch_array(MYSQLI_BOTH)) {
+			 	$respuesta[] = $row;
+			 } 
+			// Devuelve el arreglo en formato JSON
+			return $this->safe_json_encode($respuesta);
 		} else {
 			return "";
 		}
@@ -87,7 +99,6 @@ class dataBase{
 	public function ejecutar($sql){
 		$this->sqlMsg = '';
 		$this->sqlDuplicado = false;
-		$res = new stdClass();
 
 		try {
 			$resultado = $this->dataHost->prepare($sql);
