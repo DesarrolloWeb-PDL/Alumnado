@@ -37,7 +37,7 @@ $(function() {
 	$('#carrera').on('change', function(event) {
 		event.preventDefault();
 		var $carrera = $(this).val();
-		if ($carrera == "") {
+		if ($carrera == "0") {
 			$('#materia').load('../Controllers/materias.php');
 			$('#materia').selectpicker('refresh');
 		} else {

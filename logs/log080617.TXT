@@ -1,0 +1,156 @@
+00:18:58   SELECT id, NOMBRE FROM carreras
+00:18:58   
+00:18:58   sin registro
+00:18:58   SELECT materia.id AS matID, materia.NOMBRE AS matNOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON (materia.idCARRERA = carreras.id)
+00:18:58   
+00:18:58   sin registro
+00:19:03   SELECT
+					materia.NOMBRE AS matNOMBRE,
+					materia.AÑO AS matAÑO,
+					duracion.Descripcion AS DUR,
+					CONCAT(CONCAT(profesores.apellido, ' '), profesores.nombres) AS PROFESORES,
+					materia.Trabajo_Final AS matTarbFin
+				FROM materia 
+					INNER JOIN duracion on (materia.idduracionmat = duracion.id) 
+				INNER JOIN profesores on (materia.idPROFESOR = profesores.id) where 1 = 1 ORDER BY materia.NOMBRE ASC
+00:19:21   SELECT materia.id AS matID, materia.NOMBRE AS matNOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON (materia.idCARRERA = carreras.id) WHERE materia.idCARRERA = 3
+00:19:21   
+00:19:21   sin registro
+00:19:23   SELECT
+					materia.NOMBRE AS matNOMBRE,
+					materia.AÑO AS matAÑO,
+					duracion.Descripcion AS DUR,
+					CONCAT(CONCAT(profesores.apellido, ' '), profesores.nombres) AS PROFESORES,
+					materia.Trabajo_Final AS matTarbFin
+				FROM materia 
+					INNER JOIN duracion on (materia.idduracionmat = duracion.id) 
+				INNER JOIN profesores on (materia.idPROFESOR = profesores.id) where 1 = 1 AND materia.idCARRERA = 3 ORDER BY materia.NOMBRE ASC
+00:19:25   SELECT
+					materia.NOMBRE AS matNOMBRE,
+					materia.AÑO AS matAÑO,
+					duracion.Descripcion AS DUR,
+					CONCAT(CONCAT(profesores.apellido, ' '), profesores.nombres) AS PROFESORES,
+					materia.Trabajo_Final AS matTarbFin
+				FROM materia 
+					INNER JOIN duracion on (materia.idduracionmat = duracion.id) 
+				INNER JOIN profesores on (materia.idPROFESOR = profesores.id) where 1 = 1 AND materia.idCARRERA = 3 ORDER BY materia.NOMBRE ASC
+00:19:29   SELECT
+					materia.NOMBRE AS matNOMBRE,
+					materia.AÑO AS matAÑO,
+					duracion.Descripcion AS DUR,
+					CONCAT(CONCAT(profesores.apellido, ' '), profesores.nombres) AS PROFESORES,
+					materia.Trabajo_Final AS matTarbFin
+				FROM materia 
+					INNER JOIN duracion on (materia.idduracionmat = duracion.id) 
+				INNER JOIN profesores on (materia.idPROFESOR = profesores.id) where 1 = 1 AND materia.idCARRERA = 3 ORDER BY materia.NOMBRE ASC
+00:19:31   SELECT materia.id AS matID, materia.NOMBRE AS matNOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON (materia.idCARRERA = carreras.id) WHERE materia.idCARRERA = 4
+00:19:31   
+00:19:31   sin registro
+00:19:32   SELECT
+					materia.NOMBRE AS matNOMBRE,
+					materia.AÑO AS matAÑO,
+					duracion.Descripcion AS DUR,
+					CONCAT(CONCAT(profesores.apellido, ' '), profesores.nombres) AS PROFESORES,
+					materia.Trabajo_Final AS matTarbFin
+				FROM materia 
+					INNER JOIN duracion on (materia.idduracionmat = duracion.id) 
+				INNER JOIN profesores on (materia.idPROFESOR = profesores.id) where 1 = 1 AND materia.idCARRERA = 4 ORDER BY materia.NOMBRE ASC
+01:22:28   SELECT
+					materia.NOMBRE AS matNOMBRE,
+					materia.AÑO AS matAÑO,
+					duracion.Descripcion AS DUR,
+					CONCAT(CONCAT(profesores.apellido, ' '), profesores.nombres) AS PROFESORES,
+					materia.Trabajo_Final AS matTarbFin
+				FROM materia 
+					INNER JOIN duracion on (materia.idduracionmat = duracion.id) 
+				INNER JOIN profesores on (materia.idPROFESOR = profesores.id) where 1 = 1 AND materia.idCARRERA = 4 ORDER BY materia.NOMBRE ASC
+01:22:29   SELECT
+					materia.NOMBRE AS matNOMBRE,
+					materia.AÑO AS matAÑO,
+					duracion.Descripcion AS DUR,
+					CONCAT(CONCAT(profesores.apellido, ' '), profesores.nombres) AS PROFESORES,
+					materia.Trabajo_Final AS matTarbFin
+				FROM materia 
+					INNER JOIN duracion on (materia.idduracionmat = duracion.id) 
+				INNER JOIN profesores on (materia.idPROFESOR = profesores.id) where 1 = 1 AND materia.idCARRERA = 4 ORDER BY materia.NOMBRE ASC
+01:22:31   SELECT id, NOMBRE FROM carreras
+01:22:31   
+01:22:31   sin registro
+01:22:31   SELECT materia.id AS matID, materia.NOMBRE AS matNOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON (materia.idCARRERA = carreras.id)
+01:22:31   
+01:22:31   sin registro
+01:22:34   SELECT
+					materia.NOMBRE AS matNOMBRE,
+					materia.AÑO AS matAÑO,
+					duracion.Descripcion AS DUR,
+					CONCAT(CONCAT(profesores.apellido, ' '), profesores.nombres) AS PROFESORES,
+					materia.Trabajo_Final AS matTarbFin
+				FROM materia 
+					INNER JOIN duracion on (materia.idduracionmat = duracion.id) 
+				INNER JOIN profesores on (materia.idPROFESOR = profesores.id) where 1 = 1 ORDER BY materia.NOMBRE ASC
+01:22:37   SELECT materia.id AS matID, materia.NOMBRE AS matNOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON (materia.idCARRERA = carreras.id) WHERE materia.idCARRERA = 3
+01:22:37   
+01:22:37   sin registro
+01:22:38   SELECT
+					materia.NOMBRE AS matNOMBRE,
+					materia.AÑO AS matAÑO,
+					duracion.Descripcion AS DUR,
+					CONCAT(CONCAT(profesores.apellido, ' '), profesores.nombres) AS PROFESORES,
+					materia.Trabajo_Final AS matTarbFin
+				FROM materia 
+					INNER JOIN duracion on (materia.idduracionmat = duracion.id) 
+				INNER JOIN profesores on (materia.idPROFESOR = profesores.id) where 1 = 1 AND materia.idCARRERA = 3 ORDER BY materia.NOMBRE ASC
+01:22:41   SELECT materia.id AS matID, materia.NOMBRE AS matNOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON (materia.idCARRERA = carreras.id) WHERE materia.idCARRERA = 4
+01:22:41   
+01:22:41   sin registro
+01:22:41   SELECT
+					materia.NOMBRE AS matNOMBRE,
+					materia.AÑO AS matAÑO,
+					duracion.Descripcion AS DUR,
+					CONCAT(CONCAT(profesores.apellido, ' '), profesores.nombres) AS PROFESORES,
+					materia.Trabajo_Final AS matTarbFin
+				FROM materia 
+					INNER JOIN duracion on (materia.idduracionmat = duracion.id) 
+				INNER JOIN profesores on (materia.idPROFESOR = profesores.id) where 1 = 1 AND materia.idCARRERA = 4 ORDER BY materia.NOMBRE ASC
+01:22:44   SELECT materia.id AS matID, materia.NOMBRE AS matNOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON (materia.idCARRERA = carreras.id) WHERE materia.idCARRERA = 3
+01:22:44   
+01:22:44   sin registro
+01:22:47   SELECT
+					materia.NOMBRE AS matNOMBRE,
+					materia.AÑO AS matAÑO,
+					duracion.Descripcion AS DUR,
+					CONCAT(CONCAT(profesores.apellido, ' '), profesores.nombres) AS PROFESORES,
+					materia.Trabajo_Final AS matTarbFin
+				FROM materia 
+					INNER JOIN duracion on (materia.idduracionmat = duracion.id) 
+				INNER JOIN profesores on (materia.idPROFESOR = profesores.id) where 1 = 1 AND materia.idCARRERA = 3 ORDER BY materia.NOMBRE ASC
+01:23:26   SELECT
+					materia.NOMBRE AS matNOMBRE,
+					materia.AÑO AS matAÑO,
+					duracion.Descripcion AS DUR,
+					CONCAT(CONCAT(profesores.apellido, ' '), profesores.nombres) AS PROFESORES,
+					materia.Trabajo_Final AS matTarbFin
+				FROM materia 
+					INNER JOIN duracion on (materia.idduracionmat = duracion.id) 
+				INNER JOIN profesores on (materia.idPROFESOR = profesores.id) where 1 = 1 AND materia.idCARRERA = 3 ORDER BY materia.NOMBRE ASC
+01:23:29   SELECT materia.id AS matID, materia.NOMBRE AS matNOMBRE, carreras.NOMBRE AS carNOMBRE FROM materia INNER JOIN carreras ON (materia.idCARRERA = carreras.id)
+01:23:29   
+01:23:29   sin registro
+01:23:32   SELECT
+					materia.NOMBRE AS matNOMBRE,
+					materia.AÑO AS matAÑO,
+					duracion.Descripcion AS DUR,
+					CONCAT(CONCAT(profesores.apellido, ' '), profesores.nombres) AS PROFESORES,
+					materia.Trabajo_Final AS matTarbFin
+				FROM materia 
+					INNER JOIN duracion on (materia.idduracionmat = duracion.id) 
+				INNER JOIN profesores on (materia.idPROFESOR = profesores.id) where 1 = 1 AND materia.id = 3 ORDER BY materia.NOMBRE ASC
+01:32:10   SELECT
+					materia.NOMBRE AS matNOMBRE,
+					materia.AÑO AS matAÑO,
+					duracion.Descripcion AS DUR,
+					CONCAT(CONCAT(profesores.apellido, ' '), profesores.nombres) AS PROFESORES,
+					materia.Trabajo_Final AS matTarbFin
+				FROM materia 
+					INNER JOIN duracion on (materia.idduracionmat = duracion.id) 
+				INNER JOIN profesores on (materia.idPROFESOR = profesores.id) where 1 = 1 AND materia.id = 3 ORDER BY materia.NOMBRE ASC

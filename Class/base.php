@@ -60,8 +60,10 @@ class dataBase{
 		$results = $exeConsulta->get_result();
 
 		if ($this->sqlMsg == '') {
+
 			// Cargamos en un arreglo los resultados de la consulta.
 			$respuesta = array();
+			
 			while ($row = $results->fetch_array(MYSQLI_BOTH)) {
 			 	$respuesta[] = $row;
 			 } 

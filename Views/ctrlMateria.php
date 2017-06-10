@@ -17,7 +17,7 @@
 							<div class="col-sm-offset-1 col-sm-4">
 								<label for="carrera" class="sr-only">Carrera:</label>
 								<select name="carrera" id="carrera" class="selectpicker form-control" data-live-search="true">
-									<option value="" title="Carrera" data-subtext="Carrera"></option>
+									<option value="0" title="Carrera" data-subtext="Carrera"></option>
 									<?php include_once '../Controllers/carreras.php'; ?>								
 								</select>
 							</div>
